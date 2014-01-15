@@ -11,7 +11,7 @@ syntax on
 filetype plugin indent on
 
 colorscheme Monokai
-set nu
+set nu ruler
 
 au! FileType python setl nosmartindent
 au! FileType html setl nosmartindent indentexpr=
