@@ -17,6 +17,10 @@ au! FileType python setl nosmartindent
 au! FileType html setl nosmartindent indentexpr=
 
 let g:neocomplcache_enable_at_startup = 1
-nmap <F8> :TagbarToggle
 set tags=tags;/
 
+nmap <F8> :TagbarToggle
+nmap <F7> :NERDTreeToggle
+
+autocmd vimenter * NERDTree
+autocmd vimenter * TagbarToggle
