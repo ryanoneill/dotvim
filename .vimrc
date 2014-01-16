@@ -15,3 +15,8 @@ set nu ruler
 
 au! FileType python setl nosmartindent
 au! FileType html setl nosmartindent indentexpr=
+
+let g:neocomplcache_enable_at_startup = 1
+nmap <F8> :TagbarToggle
+set tags=tags;/
+
