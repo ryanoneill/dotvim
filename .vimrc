@@ -26,7 +26,7 @@ let g:ctrlp_max_files=0
 nmap <F8> :TagbarToggle
 nmap <F7> :NERDTreeToggle
 
-autocmd vimenter * NERDTree
-autocmd vimenter * TagbarToggle
+"autocmd vimenter * NERDTree"
+"autocmd vimenter * TagbarToggle"
 autocmd vimenter * wincmd l "Switch to Main Editing Window"
 
