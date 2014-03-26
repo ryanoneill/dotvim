@@ -10,7 +10,8 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme Monokai
+colorscheme lucius 
+set background=dark
 set nu ruler
 set tags=tags;/
 
