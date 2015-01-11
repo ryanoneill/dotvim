@@ -58,3 +58,6 @@
 [submodule "bundle/vim-lucius"]
 	path = bundle/vim-lucius
 	url = https://github.com/jonathanfilip/vim-lucius
+[submodule "bundle/vim-green-rhino"]
+	path = bundle/vim-green-rhino
+	url = https://github.com/ryanoneill/vim-green-rhino.git
