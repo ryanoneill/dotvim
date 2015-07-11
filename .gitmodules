@@ -61,6 +61,3 @@
 [submodule "bundle/vim-green-rhino"]
 	path = bundle/vim-green-rhino
 	url = https://github.com/ryanoneill/vim-green-rhino.git
-[submodule "bundle/vim-swift"]
-	path = bundle/vim-swift
-	url = git@github.com:toyamarinyon/vim-swift.git
