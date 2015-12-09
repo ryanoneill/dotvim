@@ -24,6 +24,7 @@ au! BufNewFile,BufRead *.purs set filetype=haskell
 au! BufNewFile,BufRead *.aurora set filetype=python
 
 let g:acp_enableAtStartup=0
+let g:EclimDisabled=1
 let g:neocomplcache_enable_at_startup=1
 let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_min_syntax_length=3
