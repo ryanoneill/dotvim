@@ -16,38 +16,22 @@ filetype plugin indent on
 set background=dark
 set nu ruler
 set tags=tags;/
-colorscheme greenrhino 
+colorscheme greenrhino
 
 au! FileType python setl nosmartindent
 au! FileType html setl nosmartindent indentexpr=
 au! BufNewFile,BufRead *.purs set filetype=haskell
+au! BufNewFile,BufRead *.aurora set filetype=python
 
 let g:acp_enableAtStartup=0
 let g:neocomplcache_enable_at_startup=1
 let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_min_syntax_length=3
-let g:ctrlp_max_files=0
 let g:airline_theme="luna"
+let g:syntastic_javascript_checkers = ['eslint']
 
-" augroup testgroup
-"   autocmd BufWrite *
-"   echom "Baz"
-" augroup END
-
-" Vimscript file settings {{{
-" augroup filetype_vim
-"   autocmd!
-"   autocmd FileType vim setlocal foldmethod=marker
-" augroup END
-" }}}
-
-
-" nnoremap <leader>ev :split $MYVIMRC<cr>
-" nnoremap <leader>sv :source $MYVIMRC<cr>
-" inoremap <esc> <nop>
-" inoremap <c-[> <esc>
-
-" augroup filetype_html
-"   autocmd!
-"   autocmd FileType html nnoremap <buffer> <localleader>f Vatzf
-" augroup END
+let g:ctrlp_max_files=0
+if executable("ag")
+  set grepprg=ag\ --nogroup\ --nocolor
+  let g:ctrlp_user_command='ag %s -l --nocolor -g ""'
+endif
