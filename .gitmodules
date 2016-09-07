@@ -4,9 +4,6 @@
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
-[submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
-	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
@@ -22,9 +19,6 @@
 [submodule "bundle/airline"]
 	path = bundle/airline
 	url = https://github.com/bling/vim-airline.git
-[submodule "bundle/vim-lucius"]
-	path = bundle/vim-lucius
-	url = https://github.com/jonathanfilip/vim-lucius
 [submodule "bundle/vim-green-rhino"]
 	path = bundle/vim-green-rhino
 	url = https://github.com/ryanoneill/vim-green-rhino.git
