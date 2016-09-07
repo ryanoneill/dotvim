@@ -16,6 +16,7 @@ filetype plugin indent on
 set background=dark
 set nu ruler
 set tags=tags;/
+set wildmode=full
 colorscheme greenrhino
 
 au! FileType python setl nosmartindent
@@ -28,7 +29,10 @@ let g:neocomplcache_enable_at_startup=1
 let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_min_syntax_length=3
 let g:airline_theme="luna"
+
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_cpp_compiler = 'g++'
+let g:syntastic_cpp_compiler_options = ' -std=c++11'
 
 let g:ctrlp_max_files=0
 if executable("ag")
