@@ -16,6 +16,7 @@ filetype plugin indent on
 set background=dark
 set nu ruler
 set tags=tags;/
+set wildmenu
 set wildmode=full
 colorscheme greenrhino
 
