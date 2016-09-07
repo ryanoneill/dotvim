@@ -1,9 +1,6 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
-[submodule "bundle/vim-coffee-script"]
-	path = bundle/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
@@ -43,9 +40,6 @@
 [submodule "bundle/vim-green-rhino"]
 	path = bundle/vim-green-rhino
 	url = https://github.com/ryanoneill/vim-green-rhino.git
-[submodule "bundle/swift-dot-vim"]
-	path = bundle/swift-dot-vim
-	url = git@github.com:keith/swift.vim.git
 [submodule "bundle/vim-airline-themes"]
 	path = bundle/vim-airline-themes
 	url = git@github.com:vim-airline/vim-airline-themes.git
