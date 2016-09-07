@@ -10,9 +10,6 @@
 [submodule "bundle/vim-commentary"]
 	path = bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
-[submodule "bundle/neocomplecache"]
-	path = bundle/neocomplecache
-	url = https://github.com/Shougo/neocomplcache.vim.git
 [submodule "bundle/airline"]
 	path = bundle/airline
 	url = https://github.com/bling/vim-airline.git
