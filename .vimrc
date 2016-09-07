@@ -1,5 +1,4 @@
 filetype on
-au BufNewFile,BufRead *.coffee set filetype=coffeescript
 
 set smartindent
 set tabstop=2
@@ -18,6 +17,7 @@ set nu ruler
 set tags=tags;/
 set wildmenu
 set wildmode=full
+set showtabline=2
 colorscheme greenrhino
 
 au! FileType python setl nosmartindent
@@ -34,9 +34,3 @@ let g:airline_theme="luna"
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
-
-let g:ctrlp_max_files=0
-if executable("ag")
-  set grepprg=ag\ --nogroup\ --nocolor
-  let g:ctrlp_user_command='ag %s -l --nocolor -g ""'
-endif
