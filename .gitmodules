@@ -22,3 +22,6 @@
 [submodule "bundle/tabline.vim"]
 	path = bundle/tabline.vim
 	url = git@github.com:mkitt/tabline.vim.git
+[submodule "bundle/ensime-vim"]
+	path = bundle/ensime-vim
+	url = git@github.com:ensime/ensime-vim.git

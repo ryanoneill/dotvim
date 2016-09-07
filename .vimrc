@@ -26,9 +26,6 @@ au! BufNewFile,BufRead *.purs set filetype=haskell
 au! BufNewFile,BufRead *.aurora set filetype=python
 
 let g:acp_enableAtStartup=0
-let g:neocomplcache_enable_at_startup=1
-let g:neocomplcache_enable_smart_case=1
-let g:neocomplcache_min_syntax_length=3
 let g:airline_theme="luna"
 
 let g:syntastic_javascript_checkers = ['eslint']
