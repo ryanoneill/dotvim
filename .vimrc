@@ -1,4 +1,8 @@
 filetype on
+call pathogen#infect()
+
+syntax on
+filetype plugin indent on
 
 set smartindent
 set tabstop=2
@@ -7,17 +11,13 @@ set shiftwidth=2
 set expandtab
 set backupdir=~/tmp
 set dir=~/tmp
-
-call pathogen#infect()
-syntax on
-filetype plugin indent on
-
-set background=dark
-set nu ruler
 set tags=tags;/
+set number
+set omnifunc=syntaxcomplete#Complete
 set wildmenu
 set wildmode=full
 set showtabline=2
+set background=dark
 colorscheme greenrhino
 
 au! FileType python setl nosmartindent
