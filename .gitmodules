@@ -25,3 +25,6 @@
 [submodule "bundle/ensime-vim"]
 	path = bundle/ensime-vim
 	url = git@github.com:ensime/ensime-vim.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
